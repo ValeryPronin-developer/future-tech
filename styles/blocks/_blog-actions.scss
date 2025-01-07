@@ -28,6 +28,12 @@
       font-size: rem(14);
     }
 
+    &:hover {
+      svg * {
+        stroke: var(--color-dark-40);
+      }
+    }
+
     &.is-active {
       svg * {
         fill: var(--color-red);
