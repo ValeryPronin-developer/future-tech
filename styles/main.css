@@ -527,13 +527,13 @@ button[aria-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url("../../icons/arrow-top-right-yellow.svg");
+  background-image: url("/future-tech/icons/arrow-top-right-yellow.svg");
 }
 .icon--yellow-eye::after {
-  background-image: url("../../icons/eye_yellow.svg");
+  background-image: url("/future-tech/icons/eye_yellow.svg");
 }
 .icon--gray-arrow-down::after {
-  background-image: url("../../icons/arrow-down_gray.svg");
+  background-image: url("/future-tech/icons/arrow-down_gray.svg");
 }
 
 .logo {
@@ -1134,7 +1134,7 @@ button[aria-label]::before {
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;
-  background: url("/images/resources-preview/bg.png") 0 0/cover no-repeat;
+  background: url("/future-tech/images/resources-preview/bg.png") 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -1815,10 +1815,10 @@ button[aria-label]::before {
   --size: 1.5rem;
   width: var(--size);
   height: var(--size);
-  background: url("../../icons/star_gray.svg") center/contain no-repeat;
+  background: url("/future-tech/icons/star_gray.svg") center/contain no-repeat;
 }
 .rating-view__star.is-active {
-  background-image: url("../../icons/star_yellow.svg");
+  background-image: url("/future-tech/icons/star_yellow.svg");
 }
 @media (width <= 90.06125rem) {
   .rating-view__star {
